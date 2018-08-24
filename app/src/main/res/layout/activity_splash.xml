@@ -58,7 +58,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:fontFamily="@font/armata"
-        android:text="github/abhi-r3v0/evabs"
+        android:text="github/abhi-r3v0/EVABS"
         android:textColor="@color/colorWhite"
         android:textSize="11dp"
         android:textStyle="bold"

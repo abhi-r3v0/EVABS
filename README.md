@@ -1,6 +1,6 @@
-## From India, to the world :blue_heart:
+### From India, to the world :blue_heart:
 
---
+---
 
 # EVABS (Extremely Vulnerable Android Labs)
 
@@ -9,6 +9,8 @@
 [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://www.github.com/abhi-r3v0/EVABS)  [![GPL Licence](https://badges.frapsoft.com/os/gpl/gpl.png?v=103)](https://www.github.com/abhi-r3v0/EVABS)
 
 An open source Android application that is intentionally vulnerable so as to act as a learning platform for Android application security beginners. The effort is to introduce beginners with very limited or zero knowledge to some of the major and commonly found real-world based Android application vulnerabilities in a story-based, interactive model. EVABS follows a level-wise difficulty approach and in each level, the player learns a new concept. This project is still under progress and aims at incorporating as many levels as possible.
+
+For complete details and solutions, head to the [wiki](https://github.com/abhi-r3v0/EVABS/wiki/Getting-Started-With-EVABS).
 
 ---
 
@@ -39,7 +41,7 @@ An open source Android application that is intentionally vulnerable so as to act
 
 or use [ADHRIT](https://github.com/abhi-r3v0/Adhrit) (all-in-one tool)
 
-Confused? Read the [documentation]() on setting up the environment.
+Confused? Read the [documentation](https://github.com/abhi-r3v0/EVABS/wiki/Getting-Started-With-EVABS) on setting up the environment.
 
 ---
 
@@ -59,8 +61,9 @@ Confused? Read the [documentation]() on setting up the environment.
 #### PROJECT LEAD:
 
 * Abhishek J M (jmabhishek4@gmail.com, [@abhi_r3v0](https://twitter.com/abhi_r3v0))
+* Anirudh Anand (anirudhanand722@gmail.com, [@a0xnirudh](https://twitter.com/a0xnirudh))
 
-#### GRAPHICS
+#### LOGO/BANNER
 
 * Loyd Jayme (loydjayme1996@gmail.com, [@loydjayme25](https://github.com/loydjayme25))
 

@@ -1,6 +1,3 @@
-![banner](https://user-images.githubusercontent.com/37318022/39965752-c198ef9e-56d1-11e8-9806-e566c810ea98.png)
-
-
 # EVABS (Extremely Vulnerable Android Labs)
 
 ---
@@ -13,7 +10,7 @@ An open source Android application that is intentionally vulnerable so as to act
 
 ### INSTALLATION
 
-* Download the application file ([apk](https://github.com/abhi-r3v0/EVABS/blob/master/APPLICATION_FILE/EVABSv1.apk)).
+* Download the application file ([apk](https://github.com/abhi-r3v0/EVABS/blob/master/EVABSv1.0.1.apk)).
 * Install it in an Android device (rooted recommended) or emulator.
 
 ---

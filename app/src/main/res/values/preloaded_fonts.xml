@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/acme</item>
+        <item>@font/advent_pro</item>
+        <item>@font/advent_pro_thin</item>
+        <item>@font/com</item>
+        <item>@font/comfortaa_bold</item>
+    </array>
+</resources>

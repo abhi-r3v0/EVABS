@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.revo.evabs">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <application
+        android:allowBackup="false"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="HardcodedDebugMode">
+        <activity
+            android:name=".ExportedActivity"
+            android:exported="true" />
+        <activity android:name=".Frida1" />
+        <activity android:name=".FileRead" />
+        <activity android:name=".DebugMe" />
+        <activity android:name=".Welcome" />
+        <activity android:name=".ChallengeList"/>
+        <activity android:name=".ExportedInfo" />
+        <activity android:name=".SmaliInject" />
+        <activity android:name=".StringsSecrets" />
+        <activity android:name=".SharedBreach" />
+        <activity android:name=".Decode" />
+        <activity android:name=".BadComm" />
+        <activity android:name=".DBLeak" />
+        <activity android:name=".CustomAccess">
+            <intent-filter>
+                <action android:name="com.revo.evabs.action.SENSOR_KEY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="text/plain" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Res_raw" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity android:name=".Welcome0" />
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

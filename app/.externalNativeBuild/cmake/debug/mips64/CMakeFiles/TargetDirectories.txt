@@ -1,0 +1,3 @@
+/home/r3v0/AndroidStudioProjects/EVABS/app/.externalNativeBuild/cmake/debug/mips64/CMakeFiles/rebuild_cache.dir
+/home/r3v0/AndroidStudioProjects/EVABS/app/.externalNativeBuild/cmake/debug/mips64/CMakeFiles/edit_cache.dir
+/home/r3v0/AndroidStudioProjects/EVABS/app/.externalNativeBuild/cmake/debug/mips64/CMakeFiles/native-lib.dir

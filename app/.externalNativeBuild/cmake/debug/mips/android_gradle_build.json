@@ -1,0 +1,38 @@
+
+{
+	"buildFiles" : [ "/home/r3v0/AndroidStudioProjects/EVABS/app/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"/home/r3v0/OldSDK/cmake/3.6.3155560/bin/cmake --build /home/r3v0/AndroidStudioProjects/EVABS/app/.externalNativeBuild/cmake/debug/mips --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"native-lib-Debug-mips" : 
+		{
+			"abi" : "mips",
+			"artifactName" : "native-lib",
+			"buildCommand" : "/home/r3v0/OldSDK/cmake/3.6.3155560/bin/cmake --build /home/r3v0/AndroidStudioProjects/EVABS/app/.externalNativeBuild/cmake/debug/mips --target native-lib",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=mipsel-none-linux-android --gcc-toolchain=/home/r3v0/OldSDK/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/home/r3v0/OldSDK/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -isystem /home/r3v0/OldSDK/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/r3v0/OldSDK/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/mips/include -isystem /home/r3v0/OldSDK/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /home/r3v0/OldSDK/ndk-bundle/sysroot/usr/include/mipsel-linux-android -D__ANDROID_API__=16 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/r3v0/AndroidStudioProjects/EVABS/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "/home/r3v0/AndroidStudioProjects/EVABS/app/.externalNativeBuild/cmake/debug/mips"
+				}
+			],
+			"output" : "/home/r3v0/AndroidStudioProjects/EVABS/app/build/intermediates/cmake/debug/obj/mips/libnative-lib.so",
+			"toolchain" : "2021399443344782829"
+		}
+	},
+	"toolchains" : 
+	{
+		"2021399443344782829" : 
+		{
+			"cCompilerExecutable" : "/home/r3v0/OldSDK/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/home/r3v0/OldSDK/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+		}
+	}
+}

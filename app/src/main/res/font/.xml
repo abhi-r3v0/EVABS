@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<font-family xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:fontProviderAuthority=""
+        app:fontProviderPackage=""
+        app:fontProviderQuery="biryani"
+        app:fontProviderCerts="@array/_certs">
+</font-family>

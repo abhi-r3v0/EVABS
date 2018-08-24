@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChallengeList">
+
+    <TextView
+        android:id="@+id/textViewChall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="Challenges"
+        android:textSize="20dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/textViewuser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Hola"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewChall"
+        tools:ignore="MissingConstraints">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0"
+            android:fillViewport="true"
+            android:scrollbarStyle="insideOverlay">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                tools:ignore="Orientation">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical|center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView2"
+                        android:layout_width="68dp"
+                        android:layout_height="66dp"
+                        app:srcCompat="@drawable/i10"/>
+
+                    <TextView
+                        android:id="@+id/textView13"
+                        android:layout_width="191dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0"
+                        android:fontFamily="@font/ubuntu"
+                        android:gravity="center"
+                        android:text="Debug Me"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorPrimaryDark" />
+
+                    <Button
+                        android:id="@+id/buttonlevel1"
+                        style="@style/Widget.AppCompat.Button.Colored"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@drawable/button"
+                        android:text="LEVEL1"
+                        android:theme="@style/buttontheme"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        tools:ignore="RtlCompat" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingVertical="10dp">
+
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="68dp"
+                        android:layout_height="69dp"
+                        app:srcCompat="@drawable/i20" />
+
+                    <TextView
+                        android:id="@+id/textView14"
+                        android:layout_width="191dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0"
+                        android:gravity="center"
+                        android:fontFamily="@font/ubuntu"
+                        android:text="File Access"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorPrimaryDark"
+                        tools:ignore="DuplicateIds" />
+
+                    <Button
+                        android:id="@+id/buttonlevel2"
+                        style="@style/Widget.AppCompat.Button.Colored"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@drawable/button"
+                        android:text="LEVEL2"
+                        android:theme="@style/buttontheme"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        tools:ignore="RtlCompat" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingVertical="10dp">
+
+                    <ImageView
+                        android:id="@+id/imageView4"
+                        android:layout_width="68dp"
+                        android:layout_height="69dp"
+                        app:srcCompat="@drawable/i30" />
+
+                    <TextView
+                        android:id="@+id/textView15"
+                        android:layout_width="191dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0"
+                        android:gravity="center"
+                        android:text="Strings"
+                        android:fontFamily="@font/ubuntu"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorPrimaryDark"
+                        tools:ignore="DuplicateIds" />
+
+                    <Button
+                        android:id="@+id/buttonlevel3"
+                        style="@style/Widget.AppCompat.Button.Colored"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@drawable/button"
+                        android:text="LEVEL3"
+                        android:theme="@style/buttontheme"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        tools:ignore="RtlCompat" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingVertical="10dp">
+
+                    <ImageView
+                        android:id="@+id/imageView5"
+                        android:layout_width="68dp"
+                        android:layout_height="69dp"
+                        app:srcCompat="@drawable/i40" />
+
+                    <TextView
+                        android:id="@+id/textView16"
+                        android:layout_width="191dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0"
+                        android:gravity="center"
+                        android:text="Resources"
+                        android:fontFamily="@font/ubuntu"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorPrimaryDark"
+                        tools:ignore="DuplicateIds" />
+
+                    <Button
+                        android:id="@+id/buttonlevel4"
+                        style="@style/Widget.AppCompat.Button.Colored"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@drawable/button"
+                        android:text="LEVEL4"
+                        android:theme="@style/buttontheme"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        tools:ignore="RtlCompat" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingVertical="10dp">
+
+                    <ImageView
+                        android:id="@+id/imageView6"
+                        android:layout_width="68dp"
+                        android:layout_height="69dp"
+                        app:srcCompat="@drawable/i50" />
+
+                    <TextView
+                        android:id="@+id/textView17"
+                        android:layout_width="191dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0"
+                        android:fontFamily="@font/ubuntu"
+                        android:gravity="center"
+                        android:text="Shares and Prefs"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorPrimaryDark"
+                        tools:ignore="DuplicateIds" />
+
+                    <Button
+                        android:id="@+id/buttonlevel5"
+                        style="@style/Widget.AppCompat.Button.Colored"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@drawable/button"
+                        android:text="LEVEL5"
+                        android:theme="@style/buttontheme"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        tools:ignore="RtlCompat" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingVertical="10dp">
+
+                    <ImageView
+                        android:id="@+id/imageView7"
+                        android:layout_width="68dp"
+                        android:layout_height="69dp"
+                        app:srcCompat="@drawable/i70" />
+
+                    <TextView
+                        android:id="@+id/textView18"
+                        android:layout_width="191dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0"
+                        android:fontFamily="@font/ubuntu"
+                        android:gravity="center"
+                        android:text="DB Leak"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorPrimaryDark"
+                        tools:ignore="DuplicateIds" />
+
+                    <Button
+                        android:id="@+id/buttonlevel6"
+                        style="@style/Widget.AppCompat.Button.Colored"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@drawable/button"
+                        android:text="LEVEL6"
+                        android:theme="@style/buttontheme"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        tools:ignore="RtlCompat" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingVertical="10dp">
+
+                    <ImageView
+                        android:id="@+id/imageView8"
+                        android:layout_width="68dp"
+                        android:layout_height="69dp"
+                        app:srcCompat="@drawable/i80" />
+
+                    <TextView
+                        android:id="@+id/textView19"
+                        android:layout_width="191dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0"
+                        android:fontFamily="@font/ubuntu"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:gravity="center"
+                        android:text="Export"
+                        android:textAlignment="center"
+                        tools:ignore="DuplicateIds" />
+
+                    <Button
+                        android:id="@+id/buttonlevel7"
+                        style="@style/Widget.AppCompat.Button.Colored"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@drawable/button"
+                        android:text="LEVEL7"
+                        android:theme="@style/buttontheme"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        tools:ignore="RtlCompat" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingVertical="10dp">
+
+                    <ImageView
+                        android:id="@+id/imageView9"
+                        android:layout_width="68dp"
+                        android:layout_height="69dp"
+                        app:srcCompat="@drawable/i100" />
+
+                    <TextView
+                        android:id="@+id/textView20"
+                        android:layout_width="191dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0"
+                        android:gravity="center"
+                        android:fontFamily="@font/ubuntu"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:text="Decode"
+                        android:textAlignment="center"
+                        tools:ignore="DuplicateIds" />
+
+                    <Button
+                        android:id="@+id/buttonlevel8"
+                        style="@style/Widget.AppCompat.Button.Colored"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@drawable/button"
+                        android:text="LEVEL8"
+                        android:theme="@style/buttontheme"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        tools:ignore="RtlCompat" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingVertical="10dp">
+
+                    <ImageView
+                        android:id="@+id/imageView10"
+                        android:layout_width="68dp"
+                        android:layout_height="69dp"
+                        app:srcCompat="@drawable/i150" />
+
+                    <TextView
+                        android:id="@+id/textView21"
+                        android:layout_width="191dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0"
+                        android:fontFamily="@font/ubuntu"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:gravity="center"
+                        android:text="Smali Injection"
+                        android:textAlignment="center"
+                        tools:ignore="DuplicateIds" />
+
+                    <Button
+                        android:id="@+id/buttonlevel9"
+                        style="@style/Widget.AppCompat.Button.Colored"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@drawable/button"
+                        android:text="LEVEL9"
+                        android:theme="@style/buttontheme"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        tools:ignore="RtlCompat" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingVertical="10dp">
+
+                    <ImageView
+                        android:id="@+id/imageView11"
+                        android:layout_width="68dp"
+                        android:layout_height="69dp"
+                        app:srcCompat="@drawable/i200" />
+
+                    <TextView
+                        android:id="@+id/textView22"
+                        android:layout_width="191dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0"
+                        android:fontFamily="@font/ubuntu"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:gravity="center"
+                        android:text="Interception"
+                        android:textAlignment="center"
+                        tools:ignore="DuplicateIds" />
+
+                    <Button
+                        android:id="@+id/buttonlevel10"
+                        style="@style/Widget.AppCompat.Button.Colored"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@drawable/button"
+                        android:text="LEVEL10"
+                        android:theme="@style/buttontheme"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        tools:ignore="RtlCompat" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingVertical="10dp">
+
+                    <ImageView
+                        android:id="@+id/imageView12"
+                        android:layout_width="68dp"
+                        android:layout_height="69dp"
+                        app:srcCompat="@drawable/i350" />
+
+                    <TextView
+                        android:id="@+id/textView23"
+                        android:layout_width="191dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0"
+                        android:gravity="center"
+                        android:fontFamily="@font/ubuntu"
+                        android:text="Custom Access"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorPrimaryDark"
+                        tools:ignore="DuplicateIds" />
+
+                    <Button
+                        android:id="@+id/buttonlevel11"
+                        style="@style/Widget.AppCompat.Button.Colored"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@drawable/button"
+                        android:text="LEVEL11"
+                        android:theme="@style/buttontheme"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        tools:ignore="RtlCompat" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingVertical="10dp">
+
+                    <ImageView
+                        android:id="@+id/imageView13"
+                        android:layout_width="68dp"
+                        android:layout_height="69dp"
+                        app:srcCompat="@drawable/i400" />
+
+                    <TextView
+                        android:id="@+id/textView24"
+                        android:layout_width="191dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0"
+                        android:gravity="center"
+                        android:fontFamily="@font/ubuntu"
+                        android:text="Instrument"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorPrimaryDark"
+                        tools:ignore="DuplicateIds" />
+
+                    <Button
+                        android:id="@+id/buttonlevel12"
+                        style="@style/Widget.AppCompat.Button.Colored"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@drawable/button"
+                        android:text="LEVEL12"
+                        android:theme="@style/buttontheme"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        tools:ignore="RtlCompat" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>

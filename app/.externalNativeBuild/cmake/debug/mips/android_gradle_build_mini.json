@@ -1,0 +1,16 @@
+{
+  "buildFiles": [
+    "/home/r3v0/AndroidStudioProjects/EVABS/app/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/home/r3v0/OldSDK/cmake/3.6.3155560/bin/cmake --build /home/r3v0/AndroidStudioProjects/EVABS/app/.externalNativeBuild/cmake/debug/mips --target clean"
+  ],
+  "libraries": {
+    "native-lib-Debug-mips": {
+      "artifactName": "native-lib",
+      "buildCommand": "/home/r3v0/OldSDK/cmake/3.6.3155560/bin/cmake --build /home/r3v0/AndroidStudioProjects/EVABS/app/.externalNativeBuild/cmake/debug/mips --target native-lib",
+      "abi": "mips",
+      "output": "/home/r3v0/AndroidStudioProjects/EVABS/app/build/intermediates/cmake/debug/obj/mips/libnative-lib.so"
+    }
+  }
+}

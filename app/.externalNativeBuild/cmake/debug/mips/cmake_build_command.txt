@@ -1,0 +1,15 @@
+Executable : /home/r3v0/OldSDK/cmake/3.6.3155560/bin/cmake
+arguments : 
+-H/home/r3v0/AndroidStudioProjects/EVABS/app
+-B/home/r3v0/AndroidStudioProjects/EVABS/app/.externalNativeBuild/cmake/debug/mips
+-DANDROID_ABI=mips
+-DANDROID_PLATFORM=android-16
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/home/r3v0/AndroidStudioProjects/EVABS/app/build/intermediates/cmake/debug/obj/mips
+-DCMAKE_BUILD_TYPE=Debug
+-DANDROID_NDK=/home/r3v0/OldSDK/ndk-bundle
+-DCMAKE_CXX_FLAGS=
+-DCMAKE_TOOLCHAIN_FILE=/home/r3v0/OldSDK/ndk-bundle/build/cmake/android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=/home/r3v0/OldSDK/cmake/3.6.3155560/bin/ninja
+-GAndroid Gradle - Ninja
+jvmArgs : 
+

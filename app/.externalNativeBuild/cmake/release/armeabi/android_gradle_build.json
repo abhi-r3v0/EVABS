@@ -1,0 +1,38 @@
+
+{
+	"buildFiles" : [ "/home/r3v0/AndroidStudioProjects/EVABS/app/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"/home/r3v0/OldSDK/cmake/3.6.3155560/bin/cmake --build /home/r3v0/AndroidStudioProjects/EVABS/app/.externalNativeBuild/cmake/release/armeabi --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"native-lib-Release-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "native-lib",
+			"buildCommand" : "/home/r3v0/OldSDK/cmake/3.6.3155560/bin/cmake --build /home/r3v0/AndroidStudioProjects/EVABS/app/.externalNativeBuild/cmake/release/armeabi --target native-lib",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/r3v0/OldSDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/r3v0/OldSDK/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -isystem /home/r3v0/OldSDK/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/r3v0/OldSDK/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /home/r3v0/OldSDK/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /home/r3v0/OldSDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=16 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -Os -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/r3v0/AndroidStudioProjects/EVABS/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "/home/r3v0/AndroidStudioProjects/EVABS/app/.externalNativeBuild/cmake/release/armeabi"
+				}
+			],
+			"output" : "/home/r3v0/AndroidStudioProjects/EVABS/app/build/intermediates/cmake/release/obj/armeabi/libnative-lib.so",
+			"toolchain" : "2021399443344782829"
+		}
+	},
+	"toolchains" : 
+	{
+		"2021399443344782829" : 
+		{
+			"cCompilerExecutable" : "/home/r3v0/OldSDK/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/home/r3v0/OldSDK/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+		}
+	}
+}

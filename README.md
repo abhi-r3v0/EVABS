@@ -61,7 +61,6 @@ Confused? Read the [documentation](https://github.com/abhi-r3v0/EVABS/wiki/Getti
 #### PROJECT LEAD:
 
 * Abhishek J M (jmabhishek4@gmail.com, [@abhi_r3v0](https://twitter.com/abhi_r3v0))
-* Anirudh Anand (anirudhanand722@gmail.com, [@a0xnirudh](https://twitter.com/a0xnirudh))
 
 #### LOGO/BANNER
 

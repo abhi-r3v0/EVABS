@@ -12,38 +12,21 @@ import android.widget.TextView;
 
 public class ChallengeList extends AppCompatActivity implements OnClickListener{
 
-    public String USER = "username";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.chall_info_single);
 
-        Boolean isFirstRun = getSharedPreferences("PREFERENCE", MODE_PRIVATE)
-                .getBoolean("isFirstRun", true);
-
-        if (isFirstRun) {
-            //show sign up activity
-            startActivity(new Intent(ChallengeList.this, Welcome0.class));
-            finish();
-        }
-
-        getSharedPreferences("PREFERENCE", MODE_PRIVATE).edit()
-                .putBoolean("isFirstRun", false).commit();
+        //getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         SharedPreferences sp = getSharedPreferences("DETAILS", MODE_PRIVATE);
 
         TextView tvchall = (TextView)findViewById(R.id.textViewChall);
-        TextView tvuser = (TextView) findViewById(R.id.textViewuser);
+
 
         Typeface font1 = Typeface.createFromAsset(getAssets(), "fonts/ssb.otf");
 
         tvchall.setTypeface(font1);
-        tvuser.setTypeface(font1);
-
-        if (sp.contains(USER)){
-            String uname = sp.getString(USER, "");
-            tvuser.setText("Hola, " + uname);
-        }
 
         Button l1 = (Button) findViewById(R.id.buttonlevel1);
         Button l2 = (Button) findViewById(R.id.buttonlevel2);

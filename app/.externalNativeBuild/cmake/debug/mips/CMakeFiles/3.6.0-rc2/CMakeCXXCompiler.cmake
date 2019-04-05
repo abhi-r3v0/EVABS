@@ -64,5 +64,5 @@ endif()
 
 
 set(CMAKE_CXX_IMPLICIT_LINK_LIBRARIES "stdc++;m;dl;c;dl")
-set(CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES "/home/r3v0/OldSDK/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/mips64el-linux-android/4.9.x/32/mips-r1;/home/r3v0/OldSDK/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/lib/linux/mipsel;/home/r3v0/OldSDK/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/mips64el-linux-android/lib;/home/r3v0/OldSDK/ndk-bundle/platforms/android-16/arch-mips/usr/lib")
+set(CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES "/home/r3v0/OldSDK/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/mips64el-linux-android/4.9.x/32/mips-r1;/home/r3v0/OldSDK/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/lib/linux/mipsel;/home/r3v0/OldSDK/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/mips64el-linux-android/lib;/home/r3v0/OldSDK/ndk-bundle/platforms/android-14/arch-mips/usr/lib")
 set(CMAKE_CXX_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")

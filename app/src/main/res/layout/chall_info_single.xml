@@ -11,32 +11,24 @@
         android:id="@+id/textViewChall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="80dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="10dp"
         android:text="Challenges"
-        android:textSize="20dp"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-
-    <TextView
-        android:id="@+id/textViewuser"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
-        android:text="Hola"
         android:textColor="@color/colorPrimaryDark"
         android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 
     <LinearLayout
+        android:id="@+id/linearLayout5"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginBottom="5dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="15dp"
         android:gravity="center"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -69,7 +61,7 @@
                         android:id="@+id/imageView2"
                         android:layout_width="68dp"
                         android:layout_height="66dp"
-                        app:srcCompat="@drawable/i10"/>
+                        app:srcCompat="@drawable/i10" />
 
                     <TextView
                         android:id="@+id/textView13"
@@ -116,8 +108,8 @@
                         android:layout_width="191dp"
                         android:layout_height="match_parent"
                         android:layout_weight="0"
-                        android:gravity="center"
                         android:fontFamily="@font/ubuntu"
+                        android:gravity="center"
                         android:text="File Access"
                         android:textAlignment="center"
                         android:textColor="@color/colorPrimaryDark"
@@ -157,9 +149,9 @@
                         android:layout_width="191dp"
                         android:layout_height="match_parent"
                         android:layout_weight="0"
+                        android:fontFamily="@font/ubuntu"
                         android:gravity="center"
                         android:text="Strings"
-                        android:fontFamily="@font/ubuntu"
                         android:textAlignment="center"
                         android:textColor="@color/colorPrimaryDark"
                         tools:ignore="DuplicateIds" />
@@ -198,9 +190,9 @@
                         android:layout_width="191dp"
                         android:layout_height="match_parent"
                         android:layout_weight="0"
+                        android:fontFamily="@font/ubuntu"
                         android:gravity="center"
                         android:text="Resources"
-                        android:fontFamily="@font/ubuntu"
                         android:textAlignment="center"
                         android:textColor="@color/colorPrimaryDark"
                         tools:ignore="DuplicateIds" />
@@ -319,10 +311,10 @@
                         android:layout_height="match_parent"
                         android:layout_weight="0"
                         android:fontFamily="@font/ubuntu"
-                        android:textColor="@color/colorPrimaryDark"
                         android:gravity="center"
                         android:text="Export"
                         android:textAlignment="center"
+                        android:textColor="@color/colorPrimaryDark"
                         tools:ignore="DuplicateIds" />
 
                     <Button
@@ -358,11 +350,11 @@
                         android:layout_width="191dp"
                         android:layout_height="match_parent"
                         android:layout_weight="0"
-                        android:gravity="center"
                         android:fontFamily="@font/ubuntu"
-                        android:textColor="@color/colorPrimaryDark"
+                        android:gravity="center"
                         android:text="Decode"
                         android:textAlignment="center"
+                        android:textColor="@color/colorPrimaryDark"
                         tools:ignore="DuplicateIds" />
 
                     <Button
@@ -399,10 +391,10 @@
                         android:layout_height="match_parent"
                         android:layout_weight="0"
                         android:fontFamily="@font/ubuntu"
-                        android:textColor="@color/colorPrimaryDark"
                         android:gravity="center"
                         android:text="Smali Injection"
                         android:textAlignment="center"
+                        android:textColor="@color/colorPrimaryDark"
                         tools:ignore="DuplicateIds" />
 
                     <Button
@@ -439,10 +431,10 @@
                         android:layout_height="match_parent"
                         android:layout_weight="0"
                         android:fontFamily="@font/ubuntu"
-                        android:textColor="@color/colorPrimaryDark"
                         android:gravity="center"
                         android:text="Interception"
                         android:textAlignment="center"
+                        android:textColor="@color/colorPrimaryDark"
                         tools:ignore="DuplicateIds" />
 
                     <Button
@@ -478,8 +470,8 @@
                         android:layout_width="191dp"
                         android:layout_height="match_parent"
                         android:layout_weight="0"
-                        android:gravity="center"
                         android:fontFamily="@font/ubuntu"
+                        android:gravity="center"
                         android:text="Custom Access"
                         android:textAlignment="center"
                         android:textColor="@color/colorPrimaryDark"
@@ -518,8 +510,8 @@
                         android:layout_width="191dp"
                         android:layout_height="match_parent"
                         android:layout_weight="0"
-                        android:gravity="center"
                         android:fontFamily="@font/ubuntu"
+                        android:gravity="center"
                         android:text="Instrument"
                         android:textAlignment="center"
                         android:textColor="@color/colorPrimaryDark"

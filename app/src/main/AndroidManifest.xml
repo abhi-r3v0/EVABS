@@ -6,6 +6,11 @@
     <uses-permission android:name="android.permission.INTERNET" />
 
     <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
     <application
         android:allowBackup="false"
         android:debuggable="true"
@@ -22,7 +27,12 @@
         <activity android:name=".FileRead" />
         <activity android:name=".DebugMe" />
         <activity android:name=".Welcome" />
-        <activity android:name=".ChallengeList"/>
+        <activity android:name=".ChallengeList"
+            android:parentActivityName=".Launch">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Launch"/>
+        </activity>
         <activity android:name=".ExportedInfo" />
         <activity android:name=".SmaliInject" />
         <activity android:name=".StringsSecrets" />
@@ -53,6 +63,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Login" />
+        <activity android:name=".flagcheck" />
+        <activity
+            android:name=".Launch"
+            android:label="@string/title_activity_launch"
+            android:theme="@style/AppTheme"></activity>
     </application>
 
 </manifest>

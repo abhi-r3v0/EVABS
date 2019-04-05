@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1029823457415",
+    "firebase_url": "https://evabs-c0e8b.firebaseio.com",
+    "project_id": "evabs-c0e8b",
+    "storage_bucket": "evabs-c0e8b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1029823457415:android:3bb08b297f653aa9",
+        "android_client_info": {
+          "package_name": "com.revo.evabs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1029823457415-jjvsqai42qpe5bebp9pkutvbgka84ulb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.revo.evabs",
+            "certificate_hash": "40f7bd5a26a07d375da097eed76936fdbb25ff77"
+          }
+        },
+        {
+          "client_id": "1029823457415-1a8vi5nkccdkq2660hmhsqvmhmuhjfer.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIuPFlCGCBxVsbz0DRmJZoZCzen_Bb6PU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1029823457415-1a8vi5nkccdkq2660hmhsqvmhmuhjfer.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

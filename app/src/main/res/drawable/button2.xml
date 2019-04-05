@@ -1,20 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <shape xmlns:android="http://schemas.android.com/apk/res/android" >
     <stroke
-        android:color="@color/colorGreen"
+        android:color="@color/newColor"
         />
     <gradient
-        android:startColor="@color/colorGreen"
+        android:startColor="@color/newColor"
         android:gradientRadius="2dp"
-        android:endColor="@color/colorGreen"/>
-    <padding
-        android:bottom="2dp"
-        android:left="4dp"
-        android:right="2dp"
-        android:top="2dp"/>
+        android:endColor="@color/newColor"/>
     <corners
-        android:bottomLeftRadius="0dp"
-        android:bottomRightRadius="5dp"
-        android:topLeftRadius="5dp"
-        android:topRightRadius="0dp" />
+        android:bottomLeftRadius="10dp"
+        android:bottomRightRadius="10dp"
+        android:topLeftRadius="10dp"
+        android:topRightRadius="10dp" />
 </shape>

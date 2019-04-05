@@ -2,6 +2,7 @@ package com.revo.evabs;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -48,10 +49,18 @@ public class Frida1 extends AppCompatActivity implements View.OnClickListener{
 
         if (x > rand) {
             tv.setText("VIBRAN IS RESDY TO FLY! YOU ARE GOING HOME!");
+            String x = stringFromJNI();
+            Log.d("CONGRATZ!", x);
         }
         else{
             tv.setText("Co-ordinates Not Found!");
         }
 
     }
+
+    static {
+        System.loadLibrary("native-lib");
+    }
+
+    public native String stringFromJNI();
 }

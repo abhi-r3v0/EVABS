@@ -42,7 +42,7 @@ public class Welcome extends AppCompatActivity implements View.OnClickListener{
             edit.putString("password","EVABS{" + stringFromJNI() + "}");
             edit.commit();
             Toast.makeText(getApplicationContext(), "Launching Mission", Toast.LENGTH_LONG).show();
-            Intent i = new Intent(Welcome.this, ChallengeList.class);
+            Intent i = new Intent(Welcome.this, Launch.class);
             startActivity(i);
             finish();
         }

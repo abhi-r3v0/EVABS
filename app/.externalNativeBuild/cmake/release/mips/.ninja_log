@@ -1,7 +1,3 @@
 # ninja log v5
-28	179	0	CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o	b2a9601c4450fd9b
-180	458	0	../../../../build/intermediates/cmake/release/obj/mips/libnative-lib.so	5401324e357ca481
-0	135	0	CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o	b2a9601c4450fd9b
-135	407	0	../../../../build/intermediates/cmake/release/obj/mips/libnative-lib.so	5401324e357ca481
-68	234	0	CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o	b2a9601c4450fd9b
-234	541	0	../../../../build/intermediates/cmake/release/obj/mips/libnative-lib.so	5401324e357ca481
+32	209	0	CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o	5b12f51f2b482731
+209	526	0	../../../../build/intermediates/cmake/release/obj/mips/libnative-lib.so	3e75701b0a6d6307

@@ -146,11 +146,37 @@ Java_com_revo_evabs_ExportedActivity_stringFromJNI(JNIEnv *env, jobject instance
     return env->NewStringUTF(exported.c_str());
 }
 
+extern "C"
+JNIEXPORT jstring JNICALL
+Java_com_revo_evabs_SmaliInject_stringFromSmali(JNIEnv *env, jobject instance) {
+
+    int a1[] = {115,109,97,108,105,95,105,110,106,95,105,115,95,108,51,116,104,97,108};
+
+    char a3[19];
+
+    for(int i=0; i<19; ++i){
+        a3[i] = char(a1[i]);
+    }
+
+    std::string labon = std::string(a3);
+
+    return env->NewStringUTF(labon.c_str());
+}
+
 
 extern "C"
 JNIEXPORT jstring JNICALL
-Java_com_revo_evabs_SmaliInject_stringFromJNI(JNIEnv *env, jobject instance) {
+Java_com_revo_evabs_Frida1_stringFromJNI(JNIEnv *env, jobject instance) {
 
-    std::string labon = "LAB_ON";
-    return env->NewStringUTF(labon.c_str());
+    // TODO
+    int a1[] = {69, 86, 65, 66, 83, 123, 97, 95, 100, 121, 110, 97, 109, 49, 99, 95, 104, 48, 48, 107, 125};
+    char a3[21];
+
+    for(int i=0; i<21; ++i){
+        a3[i] = char(a1[i]);
+    }
+
+    std::string frida = std::string(a3);
+
+    return env->NewStringUTF(frida.c_str());
 }

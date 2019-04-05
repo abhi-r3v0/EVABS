@@ -6,6 +6,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import java.net.FileNameMap;
+
 public class SmaliInject extends AppCompatActivity {
 
     String SIGNAL = "LAB_OFF";
@@ -19,6 +21,7 @@ public class SmaliInject extends AppCompatActivity {
         final TextView labstat = (TextView) findViewById(R.id.textViewlabstatus);
         final TextView tvsmalihint = (TextView) findViewById(R.id.textViewsmalihint);
         final TextView tvlaboff = (TextView) findViewById(R.id.textViewlaboff);
+        final TextView tvflag = findViewById(R.id.textViewflag);
 
         smalihint.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -32,11 +35,12 @@ public class SmaliInject extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                String ctrl = stringFromJNI();
+                String ctrl = stringFromSmali();
 
-                if (SIGNAL.equals(ctrl)){
+                if (SIGNAL.equals("LAB_ON")){
                     tvlaboff.setText("SYS_CTRL_CODE: LAB_ON");
                     labstat.setText("SYS_CTRL: ACCESS_GRANTED. LAB UNLOCKED");
+                    tvflag.setText("EVABS{" + ctrl + "}");
                 }
                 else{
                     tvlaboff.setText("SYS_CTRL_CODE: LAB_OFF");
@@ -52,5 +56,6 @@ public class SmaliInject extends AppCompatActivity {
         System.loadLibrary("native-lib");
     }
 
-    public native String stringFromJNI();
+    public native String stringFromSmali();
+
 }

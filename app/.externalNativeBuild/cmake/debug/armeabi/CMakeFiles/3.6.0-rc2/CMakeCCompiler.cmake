@@ -63,5 +63,5 @@ endif()
 
 
 set(CMAKE_C_IMPLICIT_LINK_LIBRARIES "dl;c;dl")
-set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "/home/r3v0/OldSDK/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/lib/linux/arm;/home/r3v0/OldSDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/thumb;/home/r3v0/OldSDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/arm-linux-androideabi/lib/thumb;/home/r3v0/OldSDK/ndk-bundle/platforms/android-16/arch-arm/usr/lib")
+set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "/home/r3v0/OldSDK/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/lib/linux/arm;/home/r3v0/OldSDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/thumb;/home/r3v0/OldSDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/arm-linux-androideabi/lib/thumb;/home/r3v0/OldSDK/ndk-bundle/platforms/android-14/arch-arm/usr/lib")
 set(CMAKE_C_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")

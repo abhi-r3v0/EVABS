@@ -82,8 +82,7 @@ public class BadComm extends AppCompatActivity {
         protected String doInBackground(String... params) {
             try {
 
-                // Enter URL address where your php file resides
-                url = new URL("https://evabs.000webhost.in/reboot.php");
+                url = new URL("https://www.neonsec.com/evabs/reboot.php");
 
             } catch (MalformedURLException e) {
                 // TODO Auto-generated catch block
@@ -163,7 +162,7 @@ public class BadComm extends AppCompatActivity {
 
             //this method will be running on UI thread
             //tv.setText(result);
-            Log.d("Here's The soooper flaggie", result.toString());
+            Log.d("Here's The soooper flaggie", "EVABS{You've been tricked}");
             pdLoading.dismiss();
         }
 

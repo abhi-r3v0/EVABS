@@ -1,12 +1,9 @@
-### From India, to the world :blue_heart:
-
----
 
 # EVABS (Extremely Vulnerable Android Labs)
 
 ---
 
-[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://www.github.com/abhi-r3v0/EVABS)  [![GPL Licence](https://badges.frapsoft.com/os/gpl/gpl.png?v=103)](https://www.github.com/abhi-r3v0/EVABS)
+![INDIA](https://img.shields.io/badge/From-India-orange.svg) [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://www.github.com/abhi-r3v0/EVABS)  [![GPL Licence](https://badges.frapsoft.com/os/gpl/gpl.png?v=103)](https://www.github.com/abhi-r3v0/EVABS) ![version](https://img.shields.io/badge/version-v1.1-red.svg)
 
 An open source Android application that is intentionally vulnerable so as to act as a learning platform for Android application security beginners. The effort is to introduce beginners with very limited or zero knowledge to some of the major and commonly found real-world based Android application vulnerabilities in a story-based, interactive model. EVABS follows a level-wise difficulty approach and in each level, the player learns a new concept. This project is still under progress and aims at incorporating as many levels as possible.
 
@@ -16,7 +13,7 @@ For complete details and solutions, head to the [wiki](https://github.com/abhi-r
 
 ### INSTALLATION
 
-* Download the application file ([apk](https://github.com/abhi-r3v0/EVABS/blob/master/EVABSv1.0.1.apk)).
+* Download the application file ([apk](https://github.com/abhi-r3v0/EVABS/blob/master/EVABSv1.1.apk)).
 * Install it in an Android device (rooted recommended) or emulator.
 
 ---
@@ -25,10 +22,13 @@ For complete details and solutions, head to the [wiki](https://github.com/abhi-r
 
 ![1](docs/images/ss1.jpg)
 
-![2](docs/images/ss2.jpg)
+![2](docs/images/newui.jpg)
 
-![3](docs/images/ss3.jpg)
+![3](docs/images/ss2.jpg)
 
+![4](docs/images/ss3.jpg)
+
+![5](docs/images/flagcheck.jpg)
 ---
 
 ### REQUIREMENTS
@@ -44,6 +44,12 @@ or use [ADHRIT](https://github.com/abhi-r3v0/Adhrit) (all-in-one tool)
 Confused? Read the [documentation](https://github.com/abhi-r3v0/EVABS/wiki/Getting-Started-With-EVABS) on setting up the environment.
 
 ---
+
+### CHANGE LOG
+
+* Flag checking module added within EVABS.
+* Alternatively, you can use this [link](https://www.neoonsec.com/evabs/verify.php) to submit flags from your browser.
+* UI improvements
 
 ### BUILDING LOCALLY
 
@@ -62,7 +68,7 @@ Confused? Read the [documentation](https://github.com/abhi-r3v0/EVABS/wiki/Getti
 
 * Abhishek J M (jmabhishek4@gmail.com, [@abhi_r3v0](https://twitter.com/abhi_r3v0))
 
-#### LOGO/BANNER
+#### LOGO
 
 * Loyd Jayme (loydjayme1996@gmail.com, [@loydjayme25](https://github.com/loydjayme25))
 

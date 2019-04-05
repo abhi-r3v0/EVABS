@@ -39,7 +39,7 @@ public class Splash extends AppCompatActivity {
 
             @Override
             public void run() {
-                Intent i = new Intent(com.revo.evabs.Splash.this, com.revo.evabs.ChallengeList.class);
+                Intent i = new Intent(com.revo.evabs.Splash.this, com.revo.evabs.Launch.class);
                 Splash.this.startActivity(i);
                 Splash.this.finish();
             }

@@ -7,7 +7,7 @@
 
 An open source Android application that is intentionally vulnerable so as to act as a learning platform for Android application security beginners. The effort is to introduce beginners with very limited or zero knowledge to some of the major and commonly found real-world based Android application vulnerabilities in a story-based, interactive model. EVABS follows a level-wise difficulty approach and in each level, the player learns a new concept. This project is still under progress and aims at incorporating as many levels as possible.
 
-For complete details and solutions, head to the [wiki](https://github.com/abhi-r3v0/EVABS/wiki/Getting-Started-With-EVABS).
+For complete details and solutions, head to the [blog series](https://www.hawkspawn.com/blog/getting-started-with-evabs/).
 
 ---
 
@@ -66,7 +66,7 @@ Confused? Read the [documentation](https://github.com/abhi-r3v0/EVABS/wiki/Getti
 
 #### PROJECT LEAD:
 
-* Abhishek J M (jmabhishek4@gmail.com, [@abhi_r3v0](https://twitter.com/abhi_r3v0))
+* Abhishek J M (jmabhishek4@gmail.com, [@abhi_r3v0](https://www.hawkspawn.com/))
 
 #### LOGO
 

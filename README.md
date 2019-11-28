@@ -14,7 +14,7 @@ For complete details and solutions, head to the [blog series](https://www.hawksp
 
 ### INSTALLATION
 
-* Download the application file ([apk](https://github.com/abhi-r3v0/EVABS/blob/master/EVABSv1.1.apk)).
+* Download the latest application file from the ([releases](https://github.com/abhi-r3v0/EVABS/releases)) page.
 * Install it in an Android device (rooted recommended) or emulator. 
 (Head to this [blog](https://www.hawkspawn.com/blog/getting-started-with-evabs/) for more information)
 

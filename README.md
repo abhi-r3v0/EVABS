@@ -56,7 +56,7 @@ Confused? Read the [documentation](https://github.com/abhi-r3v0/EVABS/wiki/Getti
 ### BUILDING LOCALLY
 
 * Clone the repository ```git clone https://github.com/abhi-r3v0/EVABS.git``` or download the zip.
-* Create a new folder ```EVABS``` in your ``AndroidStudioProjects``` directory and move the contents to the new directory.
+* Create a new folder ```EVABS``` in your ```AndroidStudioProjects``` directory and move the contents to the new directory.
 * Fire up Android Studio, ```File``` -> ```open``` and select the project.
 * Go to ```Build``` -> ```Generate Signed APK```.
 * Create a new signature, if it doesn't exist. Sign the APK.

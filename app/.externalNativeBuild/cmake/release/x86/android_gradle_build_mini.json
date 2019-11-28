@@ -1,16 +1,18 @@
 {
   "buildFiles": [
-    "/home/r3v0/AndroidStudioProjects/EVABS-Tests/app/CMakeLists.txt"
+    "/Users/abhishekjm/AndroidStudioProjects/EVABS/app/../../../Library/Android/sdk/ndk-bundle/build/cmake/android.toolchain.cmake",
+    "/Users/abhishekjm/AndroidStudioProjects/EVABS/app/CMakeLists.txt",
+    "/Users/abhishekjm/AndroidStudioProjects/EVABS/app/../../../Library/Android/sdk/ndk-bundle/build/cmake/platforms.cmake"
   ],
   "cleanCommands": [
-    "/home/r3v0/OldSDK/cmake/3.6.3155560/bin/cmake --build /home/r3v0/AndroidStudioProjects/EVABS-Tests/app/.externalNativeBuild/cmake/release/x86 --target clean"
+    "/Users/abhishekjm/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/abhishekjm/AndroidStudioProjects/EVABS/app/.externalNativeBuild/cmake/release/x86 --target clean"
   ],
   "libraries": {
     "native-lib-Release-x86": {
       "artifactName": "native-lib",
-      "buildCommand": "/home/r3v0/OldSDK/cmake/3.6.3155560/bin/cmake --build /home/r3v0/AndroidStudioProjects/EVABS-Tests/app/.externalNativeBuild/cmake/release/x86 --target native-lib",
+      "buildCommand": "/Users/abhishekjm/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/abhishekjm/AndroidStudioProjects/EVABS/app/.externalNativeBuild/cmake/release/x86 --target native-lib",
       "abi": "x86",
-      "output": "/home/r3v0/AndroidStudioProjects/EVABS-Tests/app/build/intermediates/cmake/release/obj/x86/libnative-lib.so"
+      "output": "/Users/abhishekjm/AndroidStudioProjects/EVABS/app/build/intermediates/cmake/release/obj/x86/libnative-lib.so"
     }
   }
 }

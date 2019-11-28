@@ -1,38 +1,36 @@
-
 {
-	"buildFiles" : [ "/home/r3v0/AndroidStudioProjects/EVABS-Tests/app/CMakeLists.txt" ],
-	"cleanCommands" : 
-	[
-		"/home/r3v0/OldSDK/cmake/3.6.3155560/bin/cmake --build /home/r3v0/AndroidStudioProjects/EVABS-Tests/app/.externalNativeBuild/cmake/debug/arm64-v8a --target clean"
-	],
-	"cppFileExtensions" : [ "cpp" ],
-	"libraries" : 
-	{
-		"native-lib-Debug-arm64-v8a" : 
-		{
-			"abi" : "arm64-v8a",
-			"artifactName" : "native-lib",
-			"buildCommand" : "/home/r3v0/OldSDK/cmake/3.6.3155560/bin/cmake --build /home/r3v0/AndroidStudioProjects/EVABS-Tests/app/.externalNativeBuild/cmake/debug/arm64-v8a --target native-lib",
-			"buildType" : "debug",
-			"files" : 
-			[
-				
-				{
-					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=/home/r3v0/OldSDK/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/home/r3v0/OldSDK/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -isystem /home/r3v0/OldSDK/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/r3v0/OldSDK/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/include -isystem /home/r3v0/OldSDK/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /home/r3v0/OldSDK/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/home/r3v0/AndroidStudioProjects/EVABS-Tests/app/src/main/cpp/native-lib.cpp",
-					"workingDirectory" : "/home/r3v0/AndroidStudioProjects/EVABS-Tests/app/.externalNativeBuild/cmake/debug/arm64-v8a"
-				}
-			],
-			"output" : "/home/r3v0/AndroidStudioProjects/EVABS-Tests/app/build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib.so",
-			"toolchain" : "2021399443344782829"
-		}
-	},
-	"toolchains" : 
-	{
-		"2021399443344782829" : 
-		{
-			"cCompilerExecutable" : "/home/r3v0/OldSDK/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang",
-			"cppCompilerExecutable" : "/home/r3v0/OldSDK/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
-		}
-	}
+  "buildFiles": [
+    "/Users/abhishekjm/AndroidStudioProjects/EVABS/app/../../../Library/Android/sdk/ndk-bundle/build/cmake/android.toolchain.cmake",
+    "/Users/abhishekjm/AndroidStudioProjects/EVABS/app/CMakeLists.txt",
+    "/Users/abhishekjm/AndroidStudioProjects/EVABS/app/../../../Library/Android/sdk/ndk-bundle/build/cmake/platforms.cmake"
+  ],
+  "cleanCommands": [
+    "/Users/abhishekjm/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/abhishekjm/AndroidStudioProjects/EVABS/app/.externalNativeBuild/cmake/debug/arm64-v8a --target clean"
+  ],
+  "libraries": {
+    "native-lib-Debug-arm64-v8a": {
+      "buildCommand": "/Users/abhishekjm/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/abhishekjm/AndroidStudioProjects/EVABS/app/.externalNativeBuild/cmake/debug/arm64-v8a --target native-lib",
+      "buildType": "debug",
+      "toolchain": "3074732391",
+      "abi": "arm64-v8a",
+      "artifactName": "native-lib",
+      "files": [
+        {
+          "src": "/Users/abhishekjm/AndroidStudioProjects/EVABS/app/src/main/cpp/native-lib.cpp",
+          "flags": "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info -fno-experimental-isel  -fPIC  ",
+          "workingDirectory": "/Users/abhishekjm/AndroidStudioProjects/EVABS/app/.externalNativeBuild/cmake/debug/arm64-v8a"
+        }
+      ],
+      "output": "/Users/abhishekjm/AndroidStudioProjects/EVABS/app/build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib.so"
+    }
+  },
+  "toolchains": {
+    "3074732391": {
+      "cppCompilerExecutable": "/Users/abhishekjm/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
 }

@@ -1,0 +1,72 @@
+{
+  "variant": {
+    "module": {
+      "rootBuildGradleFolder": "/Users/abhishekjm/AndroidStudioProjects/EVABS",
+      "sdkFolder": "/Users/abhishekjm/Library/Android/sdk",
+      "isNativeCompilerSettingsCacheEnabled": false,
+      "isBuildOnlyTargetAbiEnabled": true,
+      "splitsAbiFilterSet": [],
+      "intermediatesFolder": "/Users/abhishekjm/AndroidStudioProjects/EVABS/app/build/intermediates",
+      "gradleModulePathName": ":app",
+      "moduleRootFolder": "/Users/abhishekjm/AndroidStudioProjects/EVABS/app",
+      "makeFile": "/Users/abhishekjm/AndroidStudioProjects/EVABS/app/CMakeLists.txt",
+      "buildSystem": "CMAKE",
+      "compilerSettingsCacheFolder": "/Users/abhishekjm/AndroidStudioProjects/EVABS/.cxx",
+      "cxxFolder": "/Users/abhishekjm/AndroidStudioProjects/EVABS/app/.cxx",
+      "ndkFolder": "/Users/abhishekjm/Library/Android/sdk/ndk-bundle",
+      "ndkVersion": "20.1.5948944",
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "cmakeToolchainFile": "."
+    },
+    "buildSystemArgumentList": [],
+    "cFlagList": [],
+    "cppFlagsList": [
+      ""
+    ],
+    "variantName": "release",
+    "soFolder": "/Users/abhishekjm/AndroidStudioProjects/EVABS/app/build/intermediates/cmake/release/lib",
+    "objFolder": "/Users/abhishekjm/AndroidStudioProjects/EVABS/app/build/intermediates/cmake/release/obj",
+    "jsonFolder": "/Users/abhishekjm/AndroidStudioProjects/EVABS/app/.cxx/cmake/release",
+    "gradleBuildOutputFolder": "/Users/abhishekjm/AndroidStudioProjects/EVABS/app/.cxx/cxx/release",
+    "isDebuggableEnabled": false,
+    "validAbiList": [
+      "ARMEABI_V7A",
+      "ARM64_V8A",
+      "X86",
+      "X86_64"
+    ],
+    "buildTargetSet": []
+  },
+  "abi": "X86",
+  "abiPlatformVersion": 16,
+  "cxxBuildFolder": "/Users/abhishekjm/AndroidStudioProjects/EVABS/app/.cxx/cmake/release/x86",
+  "jsonFile": "/Users/abhishekjm/AndroidStudioProjects/EVABS/app/.cxx/cmake/release/x86/android_gradle_build.json",
+  "gradleBuildOutputFolder": "/Users/abhishekjm/AndroidStudioProjects/EVABS/app/.cxx/cxx/release/x86",
+  "objFolder": "/Users/abhishekjm/AndroidStudioProjects/EVABS/app/build/intermediates/cmake/release/obj/x86",
+  "buildCommandFile": "/Users/abhishekjm/AndroidStudioProjects/EVABS/app/.cxx/cmake/release/x86/build_command.txt",
+  "buildOutputFile": "/Users/abhishekjm/AndroidStudioProjects/EVABS/app/.cxx/cmake/release/x86/build_output.txt",
+  "modelOutputFile": "/Users/abhishekjm/AndroidStudioProjects/EVABS/app/.cxx/cmake/release/x86/build_model.json",
+  "cmake": {
+    "cmakeListsWrapperFile": "/Users/abhishekjm/AndroidStudioProjects/EVABS/app/.cxx/cxx/release/x86/CMakeLists.txt",
+    "toolchainWrapperFile": "/Users/abhishekjm/AndroidStudioProjects/EVABS/app/.cxx/cxx/release/x86/android_gradle_build.toolchain.cmake",
+    "buildGenerationStateFile": "/Users/abhishekjm/AndroidStudioProjects/EVABS/app/.cxx/cxx/release/x86/build_generation_state.json",
+    "cacheKeyFile": "/Users/abhishekjm/AndroidStudioProjects/EVABS/app/.cxx/cxx/release/x86/compiler_cache_key.json",
+    "compilerCacheUseFile": "/Users/abhishekjm/AndroidStudioProjects/EVABS/app/.cxx/cxx/release/x86/compiler_cache_use.json",
+    "compilerCacheWriteFile": "/Users/abhishekjm/AndroidStudioProjects/EVABS/app/.cxx/cxx/release/x86/compiler_cache_write.json",
+    "toolchainSettingsFromCacheFile": "/Users/abhishekjm/AndroidStudioProjects/EVABS/app/.cxx/cxx/release/x86/compiler_settings_cache.cmake",
+    "cmakeWrappingBaseFolder": "."
+  },
+  "jsonGenerationLoggingRecordFile": "/Users/abhishekjm/AndroidStudioProjects/EVABS/app/.cxx/cmake/release/x86/json_generation_record.json",
+  "compileCommandsJsonFile": "/Users/abhishekjm/AndroidStudioProjects/EVABS/app/.cxx/cmake/release/x86/compile_commands.json"
+}

@@ -82,7 +82,7 @@ public class BadComm extends AppCompatActivity {
         protected String doInBackground(String... params) {
             try {
 
-                url = new URL("https://www.neonsec.com/evabs/reboot.php");
+                url = new URL("https://evabsflag.000webhostapp.com/reboot.php");
 
             } catch (MalformedURLException e) {
                 // TODO Auto-generated catch block

@@ -127,7 +127,6 @@
         android:paddingLeft="10dp"
         android:textAlignment="center"
         android:paddingRight="10dp"
-        android:text="Alternatively, use https://neonsec.com/evabs/verify.php to access the web interface to submit flags."
         android:textColor="@color/colorWhite"
         android:textSize="10dp"
         app:layout_constraintBottom_toBottomOf="parent"

@@ -75,7 +75,7 @@ public class flagcheck extends AppCompatActivity {
         protected String doInBackground(String... strings) {
             try {
 
-                url = new URL("https://www.neonsec.com/evabs/testify.php");
+                url = new URL("https://evabsflag.000webhostapp.com/flags.php");
 
             } catch (MalformedURLException e) {
                 // TODO Auto-generated catch block
